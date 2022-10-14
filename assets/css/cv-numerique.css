@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "LittleBird";
+  src: url(../fonts/LittleBird.ttf);
+}
+
+.header {
+  background-image: url("../img/green-slate.jpg");
+  background-size: cover;
+  color: white;
+  font-family: "LittleBird";
+}
+
+footer {
+  background-image: url("../img/green-slate.jpg");
+  background-size: cover;
+  color: white;
+  font-family: "LittleBird";
+}
