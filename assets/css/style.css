@@ -4,81 +4,32 @@
 }
 
 body {
-  align-items: center;
-  background-color: black;
-  color: white;
+  color: black;
   display: flex;
   font-family: "LittleBird";
   height: 100vh;
-  justify-content: center;
   margin: 0;
   padding: 0;
 }
 
-.effectText {
-  -webkit-animation: effectText 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: effectText 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+#backgroundHome {
+  background-image: url("../img/pexels-matthias-cooper-1113145.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
-@-webkit-keyframes effectText {
-  0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-800px);
-    transform: translateZ(-800px);
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-  }
+h1 {
+  font-size: 80px;
+  text-transform: uppercase;
 }
 
-@keyframes effectText {
-  0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-800px);
-    transform: translateZ(-800px);
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-  }
+p {
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
-.effectBackground {
-  -webkit-animation: effectBackground 8s both;
-  animation: effectBackground 8s both;
-}
-
-@-webkit-keyframes effectBackground {
-  0% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes effectBackground {
-  0% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
+.aCustom {
+  background-color: #616f39;
+  border: none;
+  text-transform: uppercase;
 }
