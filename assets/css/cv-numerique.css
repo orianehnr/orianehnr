@@ -1,18 +1,24 @@
 @font-face {
-  font-family: "LittleBird";
-  src: url(../fonts/LittleBird.ttf);
+  font-family: "BebasNeue";
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-  background-image: url("../img/green-slate.jpg");
-  background-size: cover;
-  color: white;
-  font-family: "LittleBird";
+  /*background-image: url("../img/green-slate.jpg");
+  background-size: cover;*/
+  border-bottom: 2px solid black;
+  font-family: "BebasNeue";
 }
 
 footer {
-  background-image: url("../img/green-slate.jpg");
-  background-size: cover;
-  color: white;
-  font-family: "LittleBird";
+  /*background-image: url("../img/green-slate.jpg");
+  background-size: cover;*/
+  border-top: 2px solid black;
+  font-family: "BebasNeue";
 }
+

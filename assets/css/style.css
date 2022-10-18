@@ -1,35 +1,114 @@
 @font-face {
-  font-family: "LittleBird";
-  src: url(../fonts/LittleBird.ttf);
+  font-family: "BebasNeue";
+  src: url(../fonts/BebasNeue-Regular.ttf);
 }
 
 body {
   color: black;
   display: flex;
-  font-family: "LittleBird";
+  font-family: "BebasNeue";
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+.container {
+  display: flex;
 }
 
 #backgroundHome {
   background-image: url("../img/pexels-matthias-cooper-1113145.jpg");
   background-size: cover;
   height: 100vh;
+  width: 50vw;
+}
+
+#informationResume {
+  height: 100vh;
+  width: 50vw;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 100px;
   text-transform: uppercase;
 }
 
-p {
-  font-size: 40px;
-  text-transform: uppercase;
+ul {
+  padding: 0;
 }
 
-.aCustom {
-  background-color: #616f39;
-  border: none;
-  text-transform: uppercase;
+li {
+  list-style: none;
+  outline: none;
+  text-decoration: underline;
+}
+
+a {
+  font-family: "BebasNeue";
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+/*Entre 1 pixel et 425 pixels ce sera les paramètres suivants*/
+@media (1px <=width <=426px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #backgroundHome {
+    height: 30vh;
+    width: 100vw;
+  }
+
+  #informationResume {
+    text-align: center;
+    width: 100vw;
+  }
+
+  h1 {
+    font-size: 80px;
+    margin: 20px 0px;
+    /*vertical - horizontal*/
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  ul {
+    margin: 30px 0px;
+  }
+
+  li {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  button {
+    background-color: #616f39;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 10vh;
+    margin: 5px;
+    width: 30vw;
+  }
+}
+
+/*Entre 425 pixels et 768 pixels ce sera les paramètres suivants*/
+@media (426px <=width <=768px) {
+  #backgroundHome {
+    height: 30vh;
+    width: 50vw;
+  }
+}
+
+/*Entre 768 pixels et 1024 pixels ce sera les paramètres suivants*/
+@media (768px <=width <=1024px) {
+  #backgroundHome {
+    height: 100vh;
+    width: 50vw;
+  }
 }
