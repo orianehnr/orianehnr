@@ -9,7 +9,32 @@
 }
 
 body {
+  background-image: url("../img/jungle-1807476_1920.jpg");
   font-family: "BebasNeue";
+  -webkit-backdrop-filter: blur(15px);
+  /* assure la compatibilité avec safari */
+  backdrop-filter: blur(20px);
 }
 
+/*==================================================*/
+/*=================== CARD =========================*/
+/*==================================================*/
+.cardPicture {
+}
 
+.card-title {
+  color: #083F18;
+  font-size: 50px;
+}
+
+.fw-bold {
+  font-size: 25px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.blockquote {
+  font-size: 15px;
+}
