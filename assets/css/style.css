@@ -28,7 +28,7 @@ span {
   display: flex;
   font-size: 80px;
   text-align: center;
-  width: 30vw;
+  width: 35vw;
 }
 
 #backgroundHome {
@@ -38,7 +38,7 @@ span {
   border-left: 2px solid black;
   height: 100vh;
   transform: skew(-20deg);
-  width: 40vw;
+  width: 30vw;
 }
 
 #secondSlide {
@@ -48,7 +48,7 @@ span {
   font-size: 50px;
   justify-content: center;
   text-align: center;
-  width: 30vw;
+  width: 35vw;
 }
 
 ul {
