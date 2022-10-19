@@ -19,7 +19,14 @@ body {
   flex-direction: row;
 }
 
-span {
+.slideText {
+  background-color: antiquewhite;
+  font-size: 22px;
+  text-align: center;
+  width: 100vw;
+}
+
+.greenText {
   color: #083F18;
 }
 
@@ -32,11 +39,14 @@ span {
 }
 
 #backgroundHome {
+  align-items: center;
   background-image: url("../img/pexels-matthias-cooper-1113145.jpg");
   background-size: cover;
   border-right: 2px solid black;
   border-left: 2px solid black;
+  display: flex;
   height: 100vh;
+  justify-content: center;
   transform: skew(-20deg);
   width: 30vw;
 }
