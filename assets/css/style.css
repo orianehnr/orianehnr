@@ -3,6 +3,7 @@
   src: url(../fonts/BebasNeue-Regular.ttf);
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +17,10 @@ body {
 .container {
   display: flex;
   flex-direction: row;
+}
+
+span {
+  color: #083F18;
 }
 
 #firstSlide {
@@ -55,29 +60,7 @@ li {
   text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*=================== ANIMATIONS ===================*/
 
 .slide-in-right {
   -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
