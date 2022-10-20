@@ -9,19 +9,20 @@
 }
 
 body {
-  background-image: url("../img/jungle-1807476_1920.jpg");
+  background-attachment: fixed;
+  /*background-image: url("../img/jungle-1807476_1920.jpg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "BebasNeue";
-  -webkit-backdrop-filter: blur(15px);
-  /* assure la compatibilité avec safari */
-  backdrop-filter: blur(20px);
+  /* assure la compatibilité avec safari 
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);*/
 }
 
 /*==================================================*/
 /*=================== CARD =========================*/
 /*==================================================*/
-.cardPicture {
-}
-
 .card-title {
   color: #083F18;
   font-size: 50px;
@@ -37,4 +38,46 @@ body {
 
 .blockquote {
   font-size: 15px;
+}
+
+/*==================================================*/
+/*=================== NAV TABS =====================*/
+/*==================================================*/
+
+span {
+  padding-right: 10px;
+}
+
+/*==================================================*/
+/*=================== MEDIA QUERIES ================*/
+/*==================================================*/
+
+@media (1px <= width <= 576px) {
+  .card-title {
+    text-align: center;
+  }
+  .fw-bold {
+    text-align: center;
+  }
+  .blockquote {
+    text-align: center;
+  }
+  .blockquote-footer {
+    text-align: center;
+  }
+}
+
+@media (576 <= width <= 769px) {
+  .card-title {
+    text-align: center;
+  }
+  .fw-bold {
+    text-align: center;
+  }
+  .blockquote {
+    text-align: center;
+  }
+  .blockquote-footer {
+    text-align: center;
+  }
 }
