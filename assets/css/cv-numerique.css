@@ -48,6 +48,17 @@ span {
   padding-right: 10px;
 }
 
+.custom {
+  color: #083F18;
+  background-color: aquamarine;
+}
+
+.custom:hover {
+  color: #083218;
+  box-shadow: 0 0 10px #083F18;
+}
+
+
 /*==================================================*/
 /*=================== MEDIA QUERIES ================*/
 /*==================================================*/
