@@ -20,6 +20,10 @@ body {
   backdrop-filter: blur(20px);*/
 }
 
+.borderCustom {
+  border: 2px solid black;
+}
+
 /*==================================================*/
 /*=================== CARD =========================*/
 /*==================================================*/
@@ -48,46 +52,52 @@ span {
   padding-right: 10px;
 }
 
-.custom {
+.nav-pills > li > button.custom {
   color: #083F18;
-  background-color: aquamarine;
+  border: none;
 }
 
-.custom:hover {
-  color: #083218;
-  box-shadow: 0 0 10px #083F18;
+.nav-pills > li > button.custom.active {
+  background-color: #083F18;
+  color: white;
+  border: none;
 }
-
 
 /*==================================================*/
 /*=================== MEDIA QUERIES ================*/
 /*==================================================*/
 
-@media (1px <= width <= 576px) {
+@media (1px <=width <=576px) {
   .card-title {
     text-align: center;
   }
+
   .fw-bold {
     text-align: center;
   }
+
   .blockquote {
     text-align: center;
   }
+
   .blockquote-footer {
     text-align: center;
   }
 }
 
-@media (576 <= width <= 769px) {
+@media (576 <=width <=769px) {
   .card-title {
     text-align: center;
   }
+
   .fw-bold {
     text-align: center;
   }
+
   .blockquote {
     text-align: center;
   }
+
   .blockquote-footer {
     text-align: center;
   }
