@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr" class="h-100">
+<html lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -15,9 +15,9 @@
 
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="p-5">
 
-    <div class="container my-4 borderCustom">
+    <div class="container-fluid mb-4 borderCustom">
         <div class="row">
             <div class="col-lg-4 col-md-5 col-sm-12 my-2 d-flex justify-content-center">
                 <img src="assets/img/8896.png" class="img-fluid rounded-circle" alt="Ma photo de profil">
@@ -43,26 +43,28 @@
         </div>
     </div>
 
-    <div class="container borderCustom my-4">
+    <div class="container-fluid borderCustom my-4">
         <div class="row d-flex justify-content-between text-center">
             <div class="col-2">
-                <p><span><i class="fa-solid fa-map-pin"></i></span>France</p>
+                <p class="fs-4"><span><i class="fa-solid fa-map-pin"></i></span>France</p>
             </div>
             <div class="col-2">
-                <p><span><i class="fa-solid fa-car"></i></span>Permis B</p>
+                <p class="fs-4"><span><i class="fa-solid fa-car"></i></span>Permis B</p>
             </div>
             <div class="col-2">
-                <a href="https://github.com/orianehnr"><span><i class="fa-brands fa-github"></i></span>orianehnr</a>
+                <a class="fs-4" href="https://github.com/orianehnr"><span><i
+                            class="fa-brands fa-github"></i></span>orianehnr</a>
             </div>
             <div class="col-2">
-                <a href="https://www.linkedin.com/in/oriane-henry-482436229/"><span><i
+                <a class="fs-4" href="https://www.linkedin.com/in/oriane-henry-482436229/"><span><i
                             class="fa-brands fa-linkedin"></i></span>Oriane HENRY</a>
             </div>
         </div>
     </div>
 
 
-    <ul class="container nav nav-pills my-3 d-flex justify-content-between borderCustom" id="pills-tab" role="tablist">
+    <ul class="container-fluid nav nav-pills my-3 d-flex justify-content-between borderCustom" id="pills-tab"
+        role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active custom" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-me"
                 type="button" role="tab" aria-controls="pills-me" aria-selected="true"><span><i
@@ -92,15 +94,16 @@
     </ul>
 
 
-    <div class="container tab-content p-0 borderCustom" id="pills-tabContent">
+    <div class="container-fluid tab-content p-0 borderCustom" id="pills-tabContent">
 
         <!--mon profil-->
         <div class="tab-pane fade show active" id="pills-me" role="tabpanel" aria-labelledby="pills-me-tab">
             <div class="container my-2">
                 <div class="row">
                     <div class="col-12 borderCustom text-center">
-                        <p>Hey moi c'est Oriane !</p>
-                        <p>Je suis actuellement en formation de Concepteur Designer UI et je suis à la recherche d'une
+                        <p class="fs-1">Hey moi c'est Oriane !</p>
+                        <p>Je suis actuellement en formation de Concepteur Designer UI et je suis à la recherche
+                            d'une
                             alternance. Le TP de CDUI correspond à plusieurs métiers tels que :</p>
                         <ul>
                             <li>- Web designer</li>
@@ -112,7 +115,8 @@
                         <p>Nous utilisons principalement la suite Adobe pour nos travaux et aujourd'hui j'aimerais
                             mettre au profit d'une entreprise mes connaissances acquises pendant et en dehors de la
                             formation.</p>
-                        <p>La formation a une durée de 1 an avec un rythme de 3 semaines en entreprise et 1 semaine à
+                        <p>La formation a une durée de 1 an avec un rythme de 3 semaines en entreprise et 1 semaine
+                            à
                             l'école</p>
                     </div>
                 </div>
@@ -132,39 +136,30 @@
 
         <!--mes skills-->
         <div class="tab-pane fade" id="pills-skills" role="tabpanel" aria-labelledby="pills-skills-tab">
-
-            <div class="row">
-                <div class="col-12 borderCustom my-1">
-                    <p class="text-center">Hard skills</p>
-                </div>
-                <div class="col-12 text-center">
-                    <div class="row d-flex justify-content-evenly">
-                        <div class="card col-3 borderCustom" style="width: 18rem;">
-                            <img src="assets/img/html.png" class="card-img-top" alt="HTML 5">
-                            <div class="card-body">
-                                <a href="portfolio.html" class="btn btn-primary">Portfolio</a>
-                            </div>
-                        </div>
-                        <div class="card col-3 borderCustom" style="width: 18rem;">
-                            <img src="assets/img/css3.png" class="card-img-top" alt="CSS 3">
-                            <div class="card-body">
-                                <h5 class="card-title">CSS 3</h5>
-                                <a href="portfolio.html" class="btn btn-primary">Portfolio</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--me contacter-->
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="container">
 
             </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+        <!--me contacter-->
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="container">
+                <p class="fs-1 text-center borderCustom">Me contacter</p>
+                <div class="form borderCustom">
+                    <div class="col-12">
+                        <label for="exampleFormControlInput1" class="form-label col-3">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

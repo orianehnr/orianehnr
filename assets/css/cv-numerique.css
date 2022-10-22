@@ -10,18 +10,15 @@
 
 body {
   background-attachment: fixed;
-  /*background-image: url("../img/jungle-1807476_1920.jpg");*/
-  background-position: center;
+  background-image: url("../img/jungle-1807476_1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "BebasNeue";
-  /* assure la compatibilité avec safari 
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);*/
 }
 
 .borderCustom {
   border: 2px solid black;
+  backdrop-filter: blur(20px);
 }
 
 p {
@@ -49,6 +46,18 @@ p {
 }
 
 /*==================================================*/
+/*=================== INFOS ========================*/
+/*==================================================*/
+
+a {
+  color: #083F18;
+}
+
+a:hover {
+  color: antiquewhite;
+}
+
+/*==================================================*/
 /*=================== NAV TABS =====================*/
 /*==================================================*/
 
@@ -57,14 +66,20 @@ span {
 }
 
 .nav-pills>li>button.custom {
-  color: #083F18;
   border: none;
+  color: #083F18;
+}
+
+.nav-pills>li>button.custom:hover {
+  background-color: #083F18;
+  border: none;
+  color: antiquewhite;
 }
 
 .nav-pills>li>button.custom.active {
   background-color: #083F18;
-  color: white;
   border: none;
+  color: antiquewhite;
 }
 
 /*==================================================*/
