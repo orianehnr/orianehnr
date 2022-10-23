@@ -25,6 +25,7 @@ p {
 }
 
 .container-fluid {
+  -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
 }
 
