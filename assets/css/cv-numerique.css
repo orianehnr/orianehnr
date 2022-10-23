@@ -126,6 +126,14 @@ ul {
   .blockquote-footer {
     text-align: center;
   }
+
+  body {
+    background-attachment: fixed;
+    background-image: url("../img/jungle-1807476_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "BebasNeue";
+  }
 }
 
 @media (576 <=width <=769px) {
