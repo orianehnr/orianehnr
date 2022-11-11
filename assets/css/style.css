@@ -130,8 +130,6 @@ a {
   #backgroundHome {
     background-image: url("../img/pexels-matthias-cooper-1113145.jpg");
     background-size: cover;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
     transform: none;
     height: 40vh;
     width: 100vw;
@@ -195,8 +193,6 @@ a {
   #backgroundHome {
     background-image: url("../img/pexels-matthias-cooper-1113145.jpg");
     background-size: cover;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
     transform: none;
     height: 40vh;
     width: 100vw;
